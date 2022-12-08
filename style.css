@@ -12,7 +12,7 @@ body {
 }
 
 div:nth-child(1) {
-  background: purple;
+  background: salmon;
   grid-area: ye;
 }
 div:nth-child(2) {
