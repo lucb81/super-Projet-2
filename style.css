@@ -1,3 +1,6 @@
+li {
+  list-style-type: none;
+}
 body {
   min-height: 100vh;
   margin: 0;
@@ -12,7 +15,9 @@ body {
 }
 
 div:nth-child(1) {
-  background: yellow;
+
+  background: salmon;
+
   grid-area: ye;
 }
 div:nth-child(2) {
@@ -30,4 +35,10 @@ div:nth-child(4) {
 div:nth-child(5) {
   background: orchid;
   grid-area: or;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
